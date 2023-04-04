@@ -1,0 +1,3 @@
+app/
+!app/pip_list.txt
+app/DataManager

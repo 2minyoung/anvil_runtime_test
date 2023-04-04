@@ -1,0 +1,23 @@
+version: '3.3'
+
+services:
+  app:
+    user: ${DockerUsername}
+    container_name: dsme_anvil_app
+    build:
+      args:
+        - MainPackage=${MainPackage}
+        - DockerUsername=${DockerUsername}
+        - DockerPassword=${DockerPassword}
+      context: .
+      dockerfile: ./DockerFile
+    environment:
+      - DOWNLINK_WORKER_TIMEOUT=18000
+      - DOWNLINK_CAN_PERSIST=true
+    volumes:
+       - ./app:/home/${DockerUsername}/app
+    ports:
+      - "${ExportPort}:3030"
+    command:
+      anvil-app-server --app /home/${DockerUsername}/app/${MainPackage} --config-file /home/${DockerUsername}/app/config.yaml --data-dir /home/${DockerUsername}/.anvil-data
+    tty: true

@@ -1,0 +1,20 @@
+FROM python:3.8.5
+
+ARG DockerUsername=dsme_admin
+ARG DockerPassword=dsme7698
+
+COPY app/pip_list.txt /
+
+RUN apt update && apt-get -y install gcc openjdk-11-jdk git
+RUN pip install --upgrade pip && pip install --upgrade setuptools && pip install -r pip_list.txt
+
+RUN anvil-app-server --data-dir /home/${DockerUsername}/app/.anvil-data; exit 0
+
+ARG MainPackage
+
+COPY app /home/${DockerUsername}/app
+RUN useradd -s /bin/bash -m -p ${DockerPassword} ${DockerUsername}
+RUN chown -R ${DockerUsername}:${DockerUsername} /home/${DockerUsername}
+RUN su ${DockerUsername} && cd /home/${DockerUsername}/app
+
+EXPOSE 3030
