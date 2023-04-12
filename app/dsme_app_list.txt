@@ -1,1 +1,52 @@
-ssh://coolmonday%40gmail.com@anvil.works:2222/KD7J6XHJ623EITS2.git
+# DS4_Fleet_Supervision
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/6BS4TPNWMAHT2RPM.git
+# DataManager
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/VGZPJ7KCUA2XSNX5.git
+# DS4_ALS
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/TRNKOHC7NM5PL42M.git
+# DS4_BOG_Prediction
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/DGX5X43EBB2ID5MQ.git
+# DS4_Cont_Loss
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/FNRG3AHDRTDE2GYF.git
+# DS4_Alarm_Monitoring
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/SD7XLSX22QF3C44D.git
+# DS4_Emission
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/2EYAL7HHTYDUUJMW.git
+# DS4_FatigueLife
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/6OJPUDMLCI4G4I26.git
+# DS4_FRS
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/NC33Q2DAKDG5XSJI.git
+# DS4_LFSS
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/GQOVW2CYM2NC5QV7.git
+# DS4_LPGRS
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/XZDE5AP7E4YVMXIO.git
+# DS4_RoutePlanning
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/EMOQE6XVSCENIPJO.git
+# DS4_SGM
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/PIWFTFMNBJEEAWSO.git
+# DS4_VLCC_FGSS
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/Z6O35DHDENDAEKHY.git
+# DS4_VLCC_ME
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/XX5WI6DIXK6ZHVHG.git
+# DS4_VoyageSummary
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/VKWEIYRHPVCUHVRQ.git
+# HLS_PRS
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/CXH6ZUBKHQXMNGTO.git
+# HVAC_Monitoring
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/JYCTJZYFGXLHFRTE.git
+# DS4_MotionMonitoring
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/YQMPJH6XZ352KURO.git
+# DS4_RouteManager
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/TLSZGNGAYUVT2TIY.git
+# DS4_Sloshing_monitoring
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/WJLPDSOTY6UTFBOO.git
+# VoyageSummary
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/WPDYBQQV27BP76ZP.git
+# DS4_NRS
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/4WRFYGONQ3YGVTLN.git
+# anvil_extras
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/RIZTEF7ZHZVIZOXX.git
+# DS4_FSRU_Regas
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/XOG2Z33QD7NF2ORR.git
+# DS4_Dashboard
+ssh://bugmania%40dsme.co.kr@anvil.works:2222/GP5RSA7JSWFGJNF5.git
